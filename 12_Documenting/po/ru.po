@@ -1,0 +1,148 @@
+# Russian translations for LinuxApplicationDevelopment package
+# Английские переводы для пакета LinuxApplicationDevelopment.
+# Copyright (C) 2023 THE LinuxApplicationDevelopment'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the LinuxApplicationDevelopment package.
+# user <example@mail.com>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: LinuxApplicationDevelopment 2022\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-22 21:01+0300\n"
+"PO-Revision-Date: 2023-01-22 21:02+0300\n"
+"Last-Translator: user <example@mail.com>\n"
+"Language-Team: Russian\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: num-game.c:9 num-game.c:88
+#, c-format
+msgid "Usage: ./num-game [OPTIONS]\n"
+msgstr "Запуск: ./num-game [ОПЦИИ]\n"
+
+#: num-game.c:10
+#, c-format
+msgid ""
+"Simple number game: program will guess the number from 1 to 100 that you "
+"guessed\n"
+"\n"
+msgstr ""
+"Простая численная игра: программа угадает число от 1 до 100, загаданное "
+"вами\n"
+"\n"
+
+#: num-game.c:11
+#, c-format
+msgid "Options:\n"
+msgstr "Опции:\n"
+
+#: num-game.c:12
+#, c-format
+msgid ""
+"\t-r\t\tprint roman numbers instead arabic\n"
+"\n"
+msgstr ""
+"\t-r\t\tвыводить римские цифры вместо арабских\n"
+"\n"
+
+#: num-game.c:13
+#, c-format
+msgid ""
+"\t-h, --help\tprint help message\n"
+"\n"
+msgstr ""
+"\t-h, --help\tвывести вспомогательное сообщение\n"
+"\n"
+
+#: num-game.c:14
+#, c-format
+msgid "Constants:\n"
+msgstr "Константы:\n"
+
+#: num-game.c:15
+#, c-format
+msgid ""
+"\tchar *romans\tarray containing Roman numerals from 1 to 100\n"
+"\n"
+msgstr ""
+"\tchar *romans\tмассив, содержащий римские цифры от 1 до 100\n"
+"\n"
+
+#: num-game.c:16
+#, c-format
+msgid "Functions:\n"
+msgstr "Функции:\n"
+
+#: num-game.c:17
+#, c-format
+msgid "\tchar *to_roman(int num)\t\t"
+msgstr ""
+
+#: num-game.c:18
+#, c-format
+msgid ""
+"takes an integer from 1 to 100, returns a string with equal roman number or "
+"'Err' on error\n"
+"\n"
+msgstr ""
+"принимает целое число от 1 до 100, возвращает строку с соответствующей "
+"римской цифрой или 'Err' в случае ошибки\n"
+"\n"
+
+#: num-game.c:19
+#, c-format
+msgid "\tint to_arabic(char *roman)\t"
+msgstr ""
+
+#: num-game.c:20
+#, c-format
+msgid ""
+"takes a roman number from I to C, returns the equal value as an integer or "
+"-1 on error\n"
+"\n"
+msgstr ""
+"принимает римское число от I до C, возвращает соответствующее целое число "
+"или -1 в случае ошибки\n"
+"\n"
+
+#: num-game.c:83
+#, c-format
+msgid "num-game: invalid option '%s'\n"
+msgstr "num-game: неверный ключ '%s'\n"
+
+#: num-game.c:84 num-game.c:89
+#, c-format
+msgid "Try 'num-game --help' for more information.\n"
+msgstr "По команде «num-game --help» можно получить дополнительную информацию.\n"
+
+#: num-game.c:93
+#, c-format
+msgid "Guess a number from %s to %s:\n"
+msgstr "Загадайте число от %s до %s:\n"
+
+#: num-game.c:96
+#, c-format
+msgid "Is your number higher than %s?\n"
+msgstr "Ваше число больше %s?\n"
+
+#: num-game.c:99
+msgid "yes"
+msgstr "да"
+
+#: num-game.c:102
+msgid "no"
+msgstr "нет"
+
+#: num-game.c:106
+#, c-format
+msgid "Please, enter 'yes' or 'no'\n"
+msgstr "Пожалуйста, введите 'да' или 'нет'\n"
+
+#: num-game.c:110
+#, c-format
+msgid "Your number is %s\n"
+msgstr "Ваше число %s\n"

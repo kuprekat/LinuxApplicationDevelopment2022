@@ -1,0 +1,27 @@
+.TH num-game 6
+.SH NAME
+num-game \- simple number game.
+.SH SYNOPSIS
+.B num-game
+[\fIOPTIONS\fR]
+.SH DESCRIPTION
+.B num-game
+program will guess the number from 1 to 100 that you guessed.
+.SH OPTIONS
+.TP
+.BR \-r
+print roman numbers instead arabic.
+.TP
+.BR \-h,\ \--help
+print help message.
+.SH CONSTANTS
+.TP
+char *romans
+array containing Roman numerals from 1 to 100
+.SH FUNCTIONS
+.TP
+char *to_roman(int num)
+takes an integer from 1 to 100, returns a string with equal roman number or "Err" on error
+.TP
+int to_arabic(char *roman)
+takes a roman number from I to C, returns the equal value as an integer or -1 on error
